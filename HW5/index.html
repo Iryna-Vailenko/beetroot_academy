@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <form class="form" method="get" action="index.php">
+    <h1 class="title">Create an Account</h1>
+    <div class="names">
+      <div class="name">
+        <label for="first-name">First Name</label>
+        <input class="input-name" type="text" id="first-name" required>
+      </div>
+      <div class="name">
+        <label for="last-name">Last Name</label>
+        <input class="input-name" type="text" id="last-name" required>
+      </div>
+    </div>
+    <label class="label-email" for="email">E-mail</label>
+    <input class="input-email" type="email" id="email" required>
+    <span class="under-text">We'll never share your email with anyone else.</span>
+    <div class="radio-btn">
+      <input class="inp-radio" type="radio" id="male" name="gender" value="val-male">
+      <label class="lbl-radio" for="male">Male</label>
+      <input class="inp-radio" type="radio" id="female" name="gender" value="val-male">
+      <label class="lbl-radio" for="female">Female</label>
+    </div>
+    <div class="places">
+      <div class="place">
+        <label for="countries" style="margin-top: 10px;">Country</label>
+        <select class="select-country" name="country" id="countries">
+          <option value="1">Select</option>
+          <option value="2">Ukraine</option>
+          <option value="3">Italia</option>
+          <option value="4">France</option>
+          <option value="5">Germany</option>
+          <option value="6">Moldova</option>
+        </select>
+      </div>
+      <div class="place">
+        <label for="city">City</label>
+        <input class="input-city" type="text" id="city">
+      </div>
+    </div>
+    <button class="btn-sign-up">Sign Up</button>
+    <div class="text-by-clicking">
+      <p>By clicking the 'Sign Up' button, you confirm that you accept our <br />
+        <a class="policy" href="#">Terms of Use</a> and <a class="policy" href="#">Privacy Policy</a>
+      </p> 
+    </div>
+    <div class="foot-form">
+      <span>Have an account?</span>
+      <a class="foot-ref" href="#">Log In</a>
+    </div>
+    </form>
+</body>
+</html>

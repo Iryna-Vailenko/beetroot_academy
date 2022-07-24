@@ -1,0 +1,281 @@
+/* *** Zero *** */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  user-select: none;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  touch-action: pan-x pan-y;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.form{
+  background-color: #FFF;
+  width: 570px;
+  height: 590px;
+  padding: 35px 34px 16px 34px;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C1C1C;
+  margin-left: 2px;
+  margin-bottom: 20px;
+}
+
+.names, .places{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+  margin-bottom: 20px;
+}
+
+.name, .place{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-name, .input-email, .input-city, .select-country{
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  margin-top: 7px;
+  margin-right: 12px;
+  width: 245px;
+  height: 38px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.label-email{
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.input-email{
+  width: 500px;
+  margin-bottom: 7px;
+}
+
+.under-text{
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #969696;
+}
+
+.radio-btn{
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.inp-radio{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 3px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid #007BFF;
+}
+
+.lbl-radio{
+  margin: 20px 21px 20px 0px;
+  
+}
+
+.select-country{
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #969696; 
+  padding-left: 10px;
+  -webkit-appearance: none;
+  background: url(/beetroot_academy/HW5/img/🔹\ Icon\ Color.png) no-repeat;
+  background-position: right 15px top 50%;
+}
+
+.btn-sign-up{
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  width: 500px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+}
+
+.text-by-clicking{
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #969696;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.policy{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #007BFF;
+}
+
+.foot-form{
+  font-size: 15px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: -0.2px;
+  color: #545454;
+  display: flex;
+  justify-content: center;
+}
+
+.foot-ref{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #007BFF;
+  margin-left: 20px;
+}
+
+.input-name:hover,
+.input-email:hover,
+.input-city:hover,
+.select-country:hover{
+  border: 1px solid #007BFF;
+}
