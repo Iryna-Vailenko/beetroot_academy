@@ -12,87 +12,87 @@
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <a name="home"></a>
+<body class="container">
   <header class="header-page">
-    <img src="./img/logo.gif" alt="Your Garden">
-    <div class="menu">
-      <ul class="list-menu">
-        <li class="menu-item"><a href="https://shop.vashsad.ua/" target="_blank">Магазин</a></li>
-        <li class="menu-item"><a href="https://www.vashsad.ua/about/company/" target="_blank">Про нас</a></li>
-        <li class="menu-item"><a href="https://www.vashsad.ua/plants/" target="_blank">Рослини</a></li>
-        <li class="menu-item"><a href="https://www.vashsad.ua/about/company/garden_centers/all/" target="_blank">Контакти</a></li>
-      </ul>
-    </div>
+    <h1>HTML5 Семантичні елементи</h1>
   </header>
-  <main id="main-site">
-    <section id="sidebar">
-      <h2 style="margin-bottom: 15px;">Ми у соціальних мережах:</h2>
-      <div class="soc-btn">
-        <button class="mess"><a href="https://twitter.com/?lang=ru" target="_blank"><img src="./img/twitter--v1 1.png"
-              alt="Twitter"></a></button>
-        <button class="mess"><a href="https://t.me/login" target="_blank"><img src="./img/telegram.png"
-              alt="Telegram"></a></button>
-        <button class="mess"><a href="https://www.instagram.com/" target="_blank"><img src="./img/insta.png"
-              alt="Instagram"></a></button>
-        <button class="mess"><a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png"
-              alt="Facebook"></a></button>
-      </div>
+  <main id="main-site"  class="main-text">
+    <section id="id1">
+      <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p><br />
+      <p>Приклади <b>не семантичних</b> елементів: &lt;div&gt; і &lt;span&gt;- нічого не говорить про його вміст.</p><br />
+      <p>Приклади семантичних елементів: &lt;form&gt;, &lt;table&gt; і &lt;article&gt; - чітко визначає його зміст.</p><br />
     </section>
-    <section id="content">
-      <article class="description">
-        <img class="image" src="./img/flower1.jpg" alt="flower">
-        <h1 class="main-title"> <b>Спатифиллум-уход, размножение, болезни и вредители</b></h1>
-        <p class="main-text"> Спатифиллум (лат. Spathiphyllum) — род многолетних растений из семейства ароидных (Araceae), 
-          некоторые представители — популярные комнатные растения. <br />
-          Название рода происходит от двух греческих слов: 
-          «спата» — покрывало и «филлум» — лист, характеризуя специфичную формe покрывала, 
-          которая напоминает обыкновенный лист растения, но только белого цвета.</p>
-        <h3 class="decr-title">Описание</h3>
-        <p class="main-text">Спатифиллум — многолетнее вечнозелёное растение. Родина спатифиллума — Южная Америка, Восточная Азия, 
-          Полинезия. <br />
-          Стебель отсутствует — прикорневые листья образуют пучок прямо из почвы. Корневище короткое. 
-          Листья овальные или ланцетовидные, с отчетливо различимой средней жилкой. Боковые жилки вдавлены 
-          с верхней стороны листовой пластинки.<br />
-          Соцветие образуется в форме початка, на длинной ножке, с покрывалом у основания. Белое покрывало 
-          после отцветания быстро зеленеет.</p>
-        <div style="display: flex; justify-content: center;">
-          <img class="image" src="./img/flower2.jpg" alt="flower">
-        </div>
-        <h3 class="decr-title">Уход</h3>
-        <p class="main-text">Спатифиллум — теплолюбивое растение, хорошо растёт только при температуре более 18 °C, 
-        идеальная температура для роста — 22-23°C. Не любит сквозняков.</p>
-        <h3 class="decr-title">Полив.</h3> 
-        <p class="main-text">Поливать спатифиллум необходимо круглый год. Во время цветения, весной и летом, требуется обильный полив,
-        зимой умеренный. Но и зимой нельзя допускать пересушки земляного кома. Для полива и опрыскивания используйте 
-        только отстоявшуюся воду (отстаивать ее нужно в течение как минимум 12 часов). Поникшие листья спатифиллума 
-        говорят о том, что ему не хватает влаги.</p>
-        <h3 class="decr-title">Влажность воздуха.</h3> 
-        <p class="main-text">Все спатифиллумы любят повышенную влажность. Опрыскивание, поддон с влажным мхом или песком,
-        атмосфера аквариума – все это благоприятно влияет на рост спатифиллумов – уроженцев влажного климата.</p>
-      </article>
-      <h2 style="margin: 15px 0;">Trainee FrontEnd Engineer</h2>
+
+    <section id="id2">
+      <h2 class="description">Підтримка браузерів</h2>
+      <img class="image" src="./img/chrome.png" alt="Chrome">
+      <img class="image" src="./img/Explorer.png" alt="Explorer">
+      <img class="image" src="./img/firefox.png" alt="Firefox">
+      <img class="image" src="./img/safari.png" alt="Safari">
+      <img class="image" src="./img/opera.png" alt="Opera">
+    </section>
+
+    <section id="id3">
+      <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p><br />
+      <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".</p><br />
+      <p>Прочитайте про це в 
+        <a href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#" target="_blank">
+          підтримці браузера HTML5.
+        </a>
+      </p>
+    </section>
+
+    <section id="id4">
+      <h2 class="description">Нові семантичні елементи в HTML5</h2>
+      <p>HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p><br />
+      <ul class="semantic">
+        <li class="semantic">&lt;section&gt;</li>
+        <li class="semantic">&lt;article&gt;</li>
+        <li class="semantic">&lt;header&gt;</li>
+        <li class="semantic">&lt;footer&gt;</li>
+      </ul>
+    </section>
+
+    <section id="id5">
+      <h2 class="description">HTML5 &lt;section&gt; елемент</h2>
+      <p>Елемент &lt;section&gt; визначає розділ в документі.</p><br />
+      <p>Згідно з документацією в3к'с HTML5: "розділ представляє собою
+         тематичну угруповання контенту, зазвичай з заголовком". 
+      </p><br />
+      <p>Домашня сторінка зазвичай може бути розділена на розділи для
+         ознайомлення, змісту і контактної інформації.
+      </p><br />
+      <img class="img-sample" src="./img/1.png" alt="Sample">
+    </section>
+
+    <section id="id6">
+      <h2 class="description">HTML5 &lt;header&gt; елемент</h2>
+      <p>Елемент &lt;header&gt; повинен використовуватися в якості контейнера для вступного змісту.</p><br />
+      <p>В одному документі може бути кілька елементів &lt;header&gt;.</p><br />
+      <p>У наступному прикладі визначається заголовок для статті:</p><br />
+      <img class="img-sample" src="./img/3.png" alt="Sample">
+    </section>
+
+    <section id="id7">
+      <h2 class="description">HTML5 &lt;footer&gt; елемент</h2>
+      <p>Елемент &lt;footer&gt; вказує нижній колонтитул для документа або розділу.</p><br />
+      <p>Нижній колонтитул зазвичай містить автора документа, інформацію про авторське право, 
+         посилання на умови використання, контактні дані і т.д.
+      </p><br />
+      <p>В одному документі може бути кілька елементів &lt;footer&gt;.</p><br />
+      <img class="img-sample" src="./img/4.png" alt="Sample">
+    </section>
+
+      <h2 class="description">Trainee FrontEnd Engineer</h2>
       <iframe src="../HW1_CV/CV_en/index.html" height="500px" width="100%"></iframe>
-      <h2 style="margin: 15px 0;">Some interesting information</h2>
+      <h2 class="description">Some interesting information</h2>
       <iframe width="100%" height="500" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
       </iframe>
-    </section>
-    <section id="right-part">
-      <h2 style="margin-bottom: 15px;">Реклама</h2>
-      <a class="advertising" href="https://www.odessa.in.ua/" target="_blank">Отдых в Одессе с питанием и лечением</a> <br />
-      <a class="advertising" href="https://www.vashsad.ua/about/projects/price/odessa/">Ландшафтное проектирование в Одессе</a>
-    </section>
   </main>
   <footer class="foot">
-    <p>Ваш Сад © 2009 - 2022. Все права защищены</p>
-    <a href="#home">
-      <svg width="50" height="50" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="50.5" cy="50.5" r="50.5" fill="#555768" fill-opacity="0.62" />
-      <path d="M50.5 28.8572L38.953 48.8572H62.047L50.5 28.8572ZM52.5 72.1429V46.8572H48.5V72.1429H52.5Z" fill="white" />
-      </svg>
-    </a>
+    
   </footer>  
 </body>
 </html>
