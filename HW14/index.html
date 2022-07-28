@@ -8,6 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" >
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -17,34 +20,107 @@
     </div>
     <nav class="menu">
       <ul class="header__items">
-        <li class="header__item header__item__hovered">Home</li>
-        <li class="header__item header__item__hovered">Services</li>
-        <li class="header__item header__item__hovered">About</li>
-        <li class="header__item header__item__hovered">Contacts</li>
+        <li><a class="header__item" href="#">Home</a></li>
+        <li><a class="header__item" href="#">Services</a></li>
+        <li><a class="header__item" href="#">About</a></li>
+        <li><a class="header__item" href="#">Contacts</a></li>
       </ul>
     </nav>
     <div class="btn">
-      <button class="header__call header__call__hovered">callback</button>
+      <button class="header__call">callback</button>
     </div>
   </header>
-  <main class="main-content">
+  <main class="main">
     <div class="content-title">
-      <h1 class="main-content__title">Who we are</h1>
+      <h1 class="main__title">Who we are</h1>
     </div>
+    <div class="line"></div>
     <div class="description">
-      <p class="main-content__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      <p class="main__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
     </div>
-    <div class="cards">
-      <div class="main-content__card">
-        <img class="main-content__photo" src="" alt="">
-        <h3 class="main-content__name"></h3>
-        <span class="main-content__job-position"></span>
+    <div class="cards container">
+      <div class="main__card" style="margin-left: 0;">
+        <div class="main__photo-icon"> 
+          <div class="main__div-photo">
+            <img class="main__photo" src="./img/John-Morton.jpg" alt="John Handson">
+          </div>
+          <div class="main__social-networks">
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div> 
+        <h3 class="main__name">John Handson</h3>
+        <span class="main__job-position">Lead designer</span>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div class="main__card">
+        <div class="main__photo-icon">
+          <div class="main__div-photo">
+            <img class="main__photo" src="./img/alex.png" alt="Alex Cutter">
+          </div>
+          <div class="main__social-networks">
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <h3 class="main__name">Alex Cutter</h3>
+        <span class="main__job-position">Developer</span>
+      </div>
+      <div class="main__card">
+        <div class="main__photo-icon">
+          <div class="main__div-photo">
+            <img class="main__photo" src="./img/elena.png" alt="Elena Simpson">
+          </div>
+          <div class="main__social-networks">
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <h3 class="main__name">Elena Simpson</h3>
+        <span class="main__job-position">Artist</span>
+      </div>
+      <div class="main__card">
+        <div class="main__photo-icon">
+          <div class="main__div-photo">
+            <img class="main__photo" src="./img/lily.png" alt="Lily Allen">
+          </div>
+          <div class="main__social-networks">
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="main__icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <h3 class="main__name">Lily Allen</h3>
+        <span class="main__job-position">Graphic Designer</span>
+      </div>
     </div>
   </main>
   <footer class="foot">
@@ -53,28 +129,28 @@
     </div>
     <nav class="menu">
       <ul class="foot__items">
-        <li class="foot__item foot__item__hovered">Home</li>
-        <li class="foot__item foot__item__hovered">Services</li>
-        <li class="foot__item foot__item__hovered">About</li>
-        <li class="foot__item foot__item__hovered">Contacts</li>
+        <li><a class="foot__item" href="#">Home</a></li>
+        <li><a class="foot__item" href="#">Services</a></li>
+        <li><a class="foot__item" href="#">About</a></li>
+        <li><a class="foot__item" href="#">Contacts</a></li>
       </ul>
     </nav>
     <div class="social-networks">
-      <div class="foot__back-icon foot__back-icon__hovered">
-        <img class="foot__icon" src="./img/twitter.png" alt="Twitter">
-      </div>
-      <div class="foot__back-icon foot__back-icon__hovered">
-        <img class="foot__icon" src="./img/facebook.png" alt="Facebook">
-      </div>
-      <div class="foot__back-icon foot__back-icon__hovered">
-        <img class="foot__icon" src="./img/instagram.png" alt="Instagram">
-      </div>
-      <div class="foot__back-icon foot__back-icon__hovered">
-        <img class="foot__icon" src="./img/linkedin.png" alt="Linkedin">
-      </div>
-      <div class="foot__back-icon foot__back-icon__hovered">
-        <img class="foot__icon" src="./img/telegram.png" alt="Telegram">
-      </div>
+      <a href="#" class="foot__icon">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="#" class="foot__icon">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="#" class="foot__icon">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="#" class="foot__icon">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="#" class="foot__icon">
+        <i class="fa-solid fa-paper-plane"></i>
+      </a>
     </div>
   </footer>
 </body>
